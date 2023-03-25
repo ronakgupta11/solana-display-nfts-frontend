@@ -6,7 +6,7 @@ const CandyMachine: NextPage = (props) => {
   return (
     <div>
       <Head>
-        <title>Solana Scaffold</title>
+        <title>Gari vNFT</title>
         <meta name="description" content="Basic Functionality" />
       </Head>
       <CandyMachineView />

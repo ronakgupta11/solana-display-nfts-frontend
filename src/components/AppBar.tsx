@@ -30,7 +30,7 @@ export const AppBar: FC = (props) => {
           </label>
 
           <div className="hidden sm:inline w-22 h-22 md:p-2">
-            <svg
+            {/* <svg
               width="100%"
               height="22"
               viewBox="0 0 646 96"
@@ -87,7 +87,8 @@ export const AppBar: FC = (props) => {
                   <rect width="646" height="96" fill="white" />
                 </clipPath>
               </defs>
-            </svg>
+            </svg> */} {//logo svg
+            }
           </div>
         </div>
 
@@ -98,10 +99,13 @@ export const AppBar: FC = (props) => {
               <a className="btn btn-ghost btn-sm rounded-btn">Home</a>
             </Link>
             <Link href="/display">
-              <a className="btn btn-ghost btn-sm rounded-btn">Display NFT</a>
+              <a className="btn btn-ghost btn-sm rounded-btn">Explore VNFTs</a>
             </Link>
             <Link href="/candymachine">
-              <a className="btn btn-ghost btn-sm rounded-btn">Candy Machine</a>
+              <a className="btn btn-ghost btn-sm rounded-btn">MY VNFTs</a>
+            </Link>
+            <Link href="/create">
+              <a className="btn btn-ghost btn-sm rounded-btn">Create</a>
             </Link>
           </div>
         </div>

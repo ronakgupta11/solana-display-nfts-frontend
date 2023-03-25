@@ -21,12 +21,17 @@ export const ContentContainer: FC = (props) => {
           </li>
           <li>
             <Link href="/display">
-              <a>Display NFT</a>
+              <a>Explore vNFT</a>
             </Link>
           </li>
           <li>
             <Link href="/candymachine">
-              <a>Candy Machine</a>
+              <a>My vNFT</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/create">
+              <a>Create</a>
             </Link>
           </li>
         </ul>

@@ -1,17 +1,17 @@
 import type { NextPage } from "next"
 import Head from "next/head"
-import { DisplayView } from "../views"
+import { CreateView } from "../views"
 
-const Display: NextPage = (props) => {
+const Create: NextPage = (props) => {
   return (
     <div>
       <Head>
         <title>Gari vNFT</title>
         <meta name="description" content="Basic Functionality" />
       </Head>
-      <DisplayView />
+      <CreateView />
     </div>
   )
 }
 
-export default Display
+export default Create
